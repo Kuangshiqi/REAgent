@@ -1,0 +1,55 @@
+# agents:
+#   trae_agent:
+#     enable_lakeview: false
+#     model: trae_agent_model
+#     max_steps: 50
+#     tools: 
+#       - bash
+#       - str_replace_based_edit_tool
+#       - sequentialthinking
+
+
+# model_providers:
+#   deepseek:
+#     api_key: 
+#     provider: deepseek
+#     base_url: https://api.deepseek.com
+
+# models:
+#   trae_agent_model:
+#     model_provider: deepseek
+#     model: deepseek-chat
+#     max_tokens: 4096
+#     temperature: 0.1
+#     top_p: 0.9
+#     top_k: 40
+#     max_retries: 10
+#     parallel_tool_calls: 1
+
+
+agents:
+  trae_agent:
+    enable_lakeview: false
+    model: trae_agent_model
+    max_steps: 50
+    tools: 
+      - bash
+      - str_replace_based_edit_tool
+      - sequentialthinking
+
+model_providers:
+  qwen:
+    api_key: 
+    provider: qwen
+    base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+
+models:
+  trae_agent_model:
+    model_provider: qwen
+    model: qwen-plus
+    max_tokens: 4096
+    temperature: 0.1
+    top_p: 0.9
+    top_k: 40
+    max_retries: 10
+    parallel_tool_calls: 1
