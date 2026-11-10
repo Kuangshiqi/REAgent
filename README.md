@@ -5,7 +5,7 @@ Official implementation of the paper:
 Beyond Issues: Requirement-Driven LLM Agents for Software Issue Resolution
 
 ## 💡 1. Overview
-<img src="./overview.pdf" alt="overview" width="1000">
+<img src="./overview.svg" alt="overview" width="1000">
 This repository contains six parts:
 
 ### 📊 1. **Requirement Generation Component**  
@@ -271,20 +271,20 @@ We are very grateful that the authors of Agentless, Trae-agent, Specine, ArchCod
 
 ### 2. Case Study
 
-<img src="./Additional/case_study.pdf" alt="case_study" width="1000">
+<img src="./Additional/case_study.svg" alt="case_study" width="1000">
 
 ### 3. Cost
 
-<img src="./Additional/cost.pdf" alt="cost" width="1000">
+<img src="./Additional/cost.svg" alt="cost" width="1000">
 
 ### 4. Overlap
 
-<img src="./Additional/overlap.pdf" alt="overlap" width="1000">
+<img src="./Additional/overlap.svg" alt="overlap" width="1000">
 
 ### 5. Applied% in RQ2
 
-<img src="./Additional/rq2.pdf" alt="rq2" width="1000">
+<img src="./Additional/rq2.svg" alt="rq2" width="1000">
 
 ### 6. Claude-Opus-4.8
 
-<img src="./Additional/co48.pdf" alt="co48" width="1000">
+<img src="./Additional/co48.svg" alt="co48" width="1000">
